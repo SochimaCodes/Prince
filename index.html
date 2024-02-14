@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href=""
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href=""
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Izuehie Luckyprince | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Izuehie Luckyprince Sochima</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+</nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+    <img
+      src="images/1699897627185.jpg"
+      alt="Izuehie Sochima"
+      loading="lazy"
+      class="hero-img"
+    />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        Hey there! I'm Izuehie Luckyprince, a 17-year-old enthusiast passionate about web development, programming, and graphic designing. 
+        With skills in HTML, CSS, JavaScript, Kotlin, Python, and graphic designing, I thrive on bringing creative ideas to life through code and design. 
+        I'm always excited to dive into new projects, tackle challenges, and expand my knowledge. 
+        Let's create something amazing together!
+        <br>
+        <br>
+        <strong>P.S.</strong> Currently trying to upscale in Cloud Computing Services and AWS.
+
+      </p>
+    </div>
+</section>
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        At the ripe age of 17,
+         I'm already weaving webs of wonder and conjuring designs that dance off the screen. Armed with HTML, CSS, and JavaScript, I sculpt digital realms where pixels pirouette and code sings in harmony. 
+         But that's just the tip of the iceberg; my toolkit extends to Python and Photoshop,
+         adding layers of versatility to my craft
+      </p>
+      <p>
+        Beyond the realm of ones and zeros, I'm a perpetual student 
+        of the digital arts, always hungry for the next challenge and eager to push the boundaries of what's possible. Whether it's unraveling the mysteries of a new programming language or diving headfirst into the depths of graphic design, I approach each endeavor with unbridled enthusiasm and a thirst for knowledge.
+
+      </p>
+      <p>
+        But don't let my youthful exuberance fool you; behind the dazzle of technology and the dazzle of design lies a seasoned problem-solver and a relentless perfectionist. I thrive in the crucible of creativity, where constraints breed innovation and 
+        every obstacle is an opportunity in disguise.
+      </p>
+      <p>
+        So let's embark on this journey together, 
+        where lines of code become strokes of genius and pixels paint a canvas of endless possibilities. The adventure awaits, and I'm ready to seize it with both hands.
+
+      </p>
+    </section>
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header" style="color: white;" >My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="images/download.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="images/download (1).png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="images/download (2).png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="images/download (5).jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="images/download (6).jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="images/download (7).jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Projects section -->
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2 style="color: white;">Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mleqdnrd" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <br><br><br><br><br><br><br><br>
+    <footer>
+      <p class="copy">&copy; Copyright 2024</p>
+      <p class="copy">
+        Built by
+        <a href="https://www.instagram.com/priinxs_page?igsh=b2Q5dHl6dGQwYXhq" target="_blank"
+          >Izuehie Luckyprince</a
+        >
+      </p>
+</footer>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://x.com/onrooleyy?t=3PW-V203WFc4pHfRrLQqmg&s=09" target="_blank"
+        ><img
+          src="images/x (1).png"
+          alt="Twitter/X"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/priinxs_page?igsh=b2Q5dHl6dGQwYXhq" target="_blank"
+        ><img
+          src="images/insta.jpg"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://wa.me/+2348077092607" target="_blank"
+        ><img
+          src="images/wha.png"
+          alt="WhatsApp"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <br>
+    <!-- Scroll to top -->
+   
+    <!-- Footer section -->
+    
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
